@@ -17,10 +17,13 @@ GridPanel = Ext.extend(Ext.grid.GridPanel, {
             bbar: new Ext.Toolbar({
                 items: [
                     {
-                        text: 'download'
+                        xtype: 'tbfill'
                     },
                     {
-                        text: 'clear'
+                        text: 'Download All'
+                    },
+                    {
+                        text: 'Clear Cart'
                     }
                 ]
             })

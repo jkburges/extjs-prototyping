@@ -4,14 +4,13 @@ TabPanel = Ext.extend(Ext.TabPanel, {
         var config = {
             activeTab: 0,
             items: [
+                new GridPanel({
+                    title: 'grid'
+                }),
                 {
-                    title: 'one',
-                    html: 'one one'
+                    title: 'panel',
+                    html: 'blah blah'
                 },
-                {
-                    title: 'two',
-                    html: 'two two'
-                }
             ]
         };
 

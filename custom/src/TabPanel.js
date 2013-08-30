@@ -9,7 +9,9 @@ TabPanel = Ext.extend(Ext.TabPanel, {
                 }),
                 {
                     title: 'panel',
-                    html: 'blah blah'
+                    items: [
+                        new Ext.Button({ text: 'click me' })
+                    ]
                 },
             ]
         };
